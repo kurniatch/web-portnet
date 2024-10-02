@@ -1,0 +1,32 @@
+
+:root {
+  --header-size: 2em;
+  --nav-bg-color: #ffffff;
+  --primary-fc: #EEEEEE;
+  --secondary-fc: #000000;
+
+  --brand-fz: 1.2em;
+  --primary-ff: 'Fira sans';
+
+  --primary-shadow-left: 0 3px 0.5em rgba(0, 0, 0, 0.5);
+  --primary-shadow-all: 1px 1px 0.25em rgba(0, 0, 0, 0.5);;
+  --exact-link-border: 0.25rem solid #003194;
+  --button-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+
+  /* Animations */
+  --transition-menu-bar-select: 200ms ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
